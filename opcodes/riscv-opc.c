@@ -1726,6 +1726,7 @@ const struct riscv_opcode riscv_opcodes[] =
 {"vmv8r.v",    0, INSN_CLASS_V, "Vd,Vt", MATCH_VMV8RV, MASK_VMV8RV, match_opcode, 0},
 
 /* rvv-gpgpu custom instructions */
+{"vftta.vv",  0, INSN_CLASS_V, "Vd,Vt,Vs",MATCH_VFTTA_VV, MASK_VFTTA_VV, match_opcode, 0},
 {"join",      0, INSN_CLASS_I, "Vt,Vs,p", MATCH_JOIN, MASK_JOIN, match_opcode, 0},
 {"endprg",    0, INSN_CLASS_I, "d,s,t", MATCH_ENDPRG, MASK_ENDPRG, match_opcode, 0},
 {"barrier",   0, INSN_CLASS_I, "d,s,t", MATCH_BARRIER, MASK_BARRIER, match_opcode, 0},

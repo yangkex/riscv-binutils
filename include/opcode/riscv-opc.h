@@ -1988,6 +1988,8 @@
 #define MATCH_VFDOTVV  0xe4001057
 #define MASK_VFDOTVV  0xfc00707f
 /* rvv gpgpu instruction */
+#define MATCH_VFTTA_VV 0xe00200b
+#define MASK_VFTTA_VV 0xfe00707f
 #define MATCH_JOIN 0x300b
 #define MASK_JOIN  0x707f
 #define MATCH_ENDPRG 0x200b
